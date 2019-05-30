@@ -1,0 +1,12 @@
+server:
+  port: 9090
+
+logging:
+  level:
+    org.springframework.web: ERROR
+    com.garcia.springbootvue: INFO
+  config: classpath:logback-spring.xml
+  #Exposed in logback as variable $LOG_FILE
+  file: application
+  #Exposed in logback as variable $LOG_PATH
+  path: C:/workspace/springbootvuejs/log/
